@@ -1,15 +1,10 @@
-NAR Demo 0.2.1
+MyARDemo 0.0.1
 
 INTRODUCTION
 ===============================================================================
-This is my second version of the markerless augmented reality demo. I originally
-wrote it because I was interested in augmented reality and decided to code one
-up to learn about it. The first attempt used CUDA, which limited it to users with
-NVIDIA graphics card. Since then I've removed all GPU code and did a major overhaul
-of the code. The new code is called NAR, short for Nghia's Augmented Reality :)
+This is a version of the markerless augmented reality demo modified from NAR. 
+The original author is Nghiaho, and thanks for his demo. :)
 
-This code is intended for educational purposes, targeted at beginners working 
-on AR who need some basic code to get them started.
 
 
 COMPILING
@@ -62,4 +57,4 @@ pretty do much whatever you want with the code. For educational or commercial.
 
 FOUND A BUG?
 ===============================================================================
-Email me at nghiaho12@yahoo.com
+Email me at hustwyk@gmail.com
