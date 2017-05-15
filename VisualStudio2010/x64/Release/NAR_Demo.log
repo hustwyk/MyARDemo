@@ -1,0 +1,51 @@
+﻿Build started 2017/5/15 16:08:11.
+     1>Project "C:\Users\WYK\Documents\GitHub\MyARDemo\VisualStudio2010\NAR_Demo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\NAR_Demo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /D WIN32 /D _USE_MATH_DEFINES /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ..\main.cpp ..\NAR\AlphaBetaTracker.cpp ..\NAR\BaseThread.cpp ..\NAR\CpuID.cpp ..\NAR\DoG.cpp ..\NAR\ExtractFeatureThread.cpp ..\NAR\KeyPointThread.cpp ..\NAR\KTree.cpp ..\NAR\NAR.cpp ..\NAR\NAR_Sig.cpp ..\NAR\Rpoly.cpp ..\NAR\RPP.cpp ..\VideoThread.cpp
+         main.cpp
+     1>d:\irrlicht-1.8.4\include\Keycodes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\irrlicht-1.8.4\include\Keycodes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\irrlicht-1.8.4\include\Keycodes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         AlphaBetaTracker.cpp
+         BaseThread.cpp
+         CpuID.cpp
+         DoG.cpp
+         ExtractFeatureThread.cpp
+         KeyPointThread.cpp
+         KTree.cpp
+         NAR.cpp
+         NAR_Sig.cpp
+         Rpoly.cpp
+         RPP.cpp
+     1>..\NAR\RPP.cpp(527): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\NAR\RPP.cpp(540): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\NAR\RPP.cpp(1200): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         VideoThread.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\WYK\Documents\GitHub\MyARDemo\VisualStudio2010\..\NAR_Demo.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"x64\Release\NAR_Demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\WYK\Documents\GitHub\MyARDemo\NAR_Demo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\WYK\Documents\GitHub\MyARDemo\VisualStudio2010\..\NAR_Demo.lib" /MACHINE:X64 x64\Release\main.obj
+         x64\Release\AlphaBetaTracker.obj
+         x64\Release\BaseThread.obj
+         x64\Release\CpuID.obj
+         x64\Release\DoG.obj
+         x64\Release\ExtractFeatureThread.obj
+         x64\Release\KeyPointThread.obj
+         x64\Release\KTree.obj
+         x64\Release\NAR.obj
+         x64\Release\NAR_Sig.obj
+         x64\Release\Rpoly.obj
+         x64\Release\RPP.obj
+         x64\Release\VideoThread.obj
+         NAR_Demo.vcxproj -> C:\Users\WYK\Documents\GitHub\MyARDemo\VisualStudio2010\..\NAR_Demo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\WYK\Documents\GitHub\MyARDemo\VisualStudio2010\..\NAR_Demo.exe;#1" /manifest x64\Release\NAR_Demo.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\NAR_Demo.unsuccessfulbuild".
+         Touching "x64\Release\NAR_Demo.lastbuildstate".
+     1>Done Building Project "C:\Users\WYK\Documents\GitHub\MyARDemo\VisualStudio2010\NAR_Demo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.07
